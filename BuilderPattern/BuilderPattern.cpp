@@ -1,3 +1,4 @@
+#if 0
 #include <iostream>
 
 using namespace std;
@@ -184,3 +185,4 @@ int main()
 	House *house2 = ctr2->getHouse();
 	cout << "Constructed: " << house2;
 }
+#endif // 0
