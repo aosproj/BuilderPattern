@@ -127,6 +127,11 @@ public:
 	{
 		return this->carobj;
 	}
+
+	~SportsCar()
+	{
+		delete carobj;
+	}
 };
 
 void SportsCar::seatCount(int16_t seatcnt)
