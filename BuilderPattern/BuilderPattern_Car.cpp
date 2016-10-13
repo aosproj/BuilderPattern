@@ -160,7 +160,7 @@ void SportsCar::setAWD()
 }
 
 
-/* The Director. Constructs the house */
+/* The Director. Instructs the builder */
 class CarManuFacturer
 {
 private:
